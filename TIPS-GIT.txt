@@ -1,0 +1,12 @@
+1.- Ubicarse en el directorio donde se ubica el archivo que se quiere backup en GIT
+2.- Click derecho en el espacio en blanco y seleccionar Git Bash Here
+3.- Inicializar con el comando : git init
+4.- Listar los files: git status -s (verificar que todos estan en rojo)
+5.- Si se quiere guardar un file en especial: git add index.html (index.html es el nombre del archivo que se quiere guardar)
+6.- Se utiliza commit para confirmar: git commit -m "descripcion"
+7.- Si se modifica el archivo y se quiere volver a grabar entonces se hace lo siguiente
+8.- Listar los files: git status -s (se verifica que nuevamente se encuentran en rojo los files)
+9.- Volver a guardar el file con : git add index.html (index.html es el nombre del archivo que se quiere guardar)
+10.- Posteriormente se procede a confimar con el comando : git commit -m "descripcion"
+11.- Si se quiere ver un listado de las versiones se usa el comando: git log --oneline
+
